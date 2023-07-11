@@ -10,7 +10,7 @@ cd data/
 rm WordNet-2.0.exc.db  
 cd WordNet-2.0-Exceptions/  
 sudo chmod 777 buildExeptionDB.pl  
-./buildExeptionDB.pl . exc WordNet-2.0.exc.db         ###注意给.pl文件可执行权限 chmod 777 *.pl  
+./buildExeptionDB.pl . exc WordNet-2.0.exc.db         ###注意给.pl文件可执行权限  
 cd ..  
 ln -s WordNet-2.0-Exceptions/WordNet-2.0.exc.db WordNet-2.0.exc.db  
   
